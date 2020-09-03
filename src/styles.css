@@ -1,0 +1,23 @@
+#startMenu, h1, button {
+  text-align: center;
+}
+
+#charCreation {
+  display: none;
+}
+
+#charSummary {
+  display: none;
+}
+
+#battle {
+  display: none;
+}
+
+#victoryScreen {
+  display: none;
+}
+
+#gameOver {
+  display: none;
+}

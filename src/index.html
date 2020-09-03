@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPG</title>
+</head>
+<body>
+  <div id="startMenu" class="container-fluid">
+    <h1>Welcome to the Game</h1>
+    <button type="button" id="newGame">New Game</button>
+  </div>
+
+  <div id="charCreation" class="container-fluid">
+    <h1>What is more imporant to you?</h1>
+    <p id="charCreationDisplay"></p>
+    <button type="button" id="plusDamage">Doing Damage</button>
+    <label for="plusDamage">+3 damage</label>
+    <button type="button" id="plusHealth">Staying Alive</button>
+    <label for="plusHealth">+6 health</label>
+  </div>
+
+  <div id="charSummary" class="container-fluid">
+    <h1>Your Character:</h1>
+    <p id="charSummaryStats"></p>
+    <button type="button" id="startBattle">Start Battle</button>
+  </div>
+
+  <div id="battle" class="container-fluid">
+    <h1>Battle!</h1>
+    <h3>Player:</h3>
+    <p id="playerBattleStats"></p>
+    <p id="enemyDamageDone"></p>
+    <h3>Enemy:</h3>
+    <p id="enemyBattleStats"></p>
+    <p id="playerDamageDone"></p>
+    <button type="button" id="battleAttack">Attack!</button>
+    <button type="button" id="battleRun">Flee!</button>
+  </div>
+
+  <div id="victoryScreen" class="container-fluid">
+    <h1>VICTORY</h1>
+    <h3>Select your skill to level up</h3>
+    <button type="button" id="damageLevelUp"> + Strength</button>
+    <button type="button" id="healthLevelUp"> + Health</button>
+  </div>
+
+  <div id="gameOver" class="container-fluid">
+    <h1>GAME OVER</h1>
+    <h3>Better luck next time :(</h3>
+    <button type="button" id="startOver">Start Over</button>
+  </div>
+</body>
+</html>
